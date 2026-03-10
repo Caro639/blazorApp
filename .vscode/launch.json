@@ -3,21 +3,9 @@
   "configurations": [
     {
       "name": "C#: BlazorApp [Configuration par défaut]",
-      "type": "coreclr",
+      "type": "dotnet",
       "request": "launch",
-      "preLaunchTask": "build",
-      "program": "${workspaceFolder}/BlazorApp1/bin/Debug/net10.0/BlazorApp1.dll",
-      "args": [],
-      "cwd": "${workspaceFolder}/BlazorApp1",
-      "stopAtEntry": false,
-      "env": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_URLS": "https://localhost:7095;http://localhost:5111"
-      },
-      "serverReadyAction": {
-        "action": "openExternally",
-        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
-      }
+      "projectPath": "${workspaceFolder}/BlazorApp1/BlazorApp1.csproj"
     }
   ]
 }
